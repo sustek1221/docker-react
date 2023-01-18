@@ -8,6 +8,4 @@ RUN npm install
 
 COPY . .
 
-RUN chmod o+w /app/node_modules
-
 CMD ["npm", "run", "start"]
